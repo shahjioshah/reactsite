@@ -2,6 +2,7 @@ import React from 'react'
 import Nava from './components/Nava'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
+import Videos from './components/Videos'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Nava />
       <Navbar />
       <Services />
+      <Videos />
     </div>
   )
 }
